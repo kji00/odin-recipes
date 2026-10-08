@@ -9,8 +9,19 @@ body {
     background: gray;
 }
 
+img {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+
 li {
+    text-align: left;
     margin: 5px;
+}
+
+ol {
+    padding-left: 10px;
 }
 
 .card {
@@ -27,7 +38,7 @@ li {
     margin: 10px auto;
 }
 
-.recipe-links {
+.recipe-links, .ingredients {
     width: fit-content;
     padding: 10px; 
     margin: 0 auto;
@@ -35,4 +46,9 @@ li {
 
 .link-box {
     background: lightblue;
+}
+
+.title p {
+    padding: 5px;
+    text-align: left;
 }
