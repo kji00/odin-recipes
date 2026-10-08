@@ -1,0 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   /* outline: 2px solid red; */
+}
+
+body {
+    background: gray;
+}
+
+li {
+    margin: 5px;
+}
+
+.card {
+    width: 500px;
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+.title {
+    background: lightblue;
+    text-align: center;
+    padding: 10px; 
+    margin: 10px auto;
+}
+
+.recipe-links {
+    width: fit-content;
+    padding: 10px; 
+    margin: 0 auto;
+}
+
+.link-box {
+    background: lightblue;
+}
